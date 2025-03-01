@@ -1,7 +1,7 @@
 {
     "name" : "Schedule",
     "short-name" : "Schedule",
-    "start-url" : "https://balanaa.github.io/602_Schedule/",
+    "start-url" : "./",
     "icons": [
     {
       "src": "favicon.png",
