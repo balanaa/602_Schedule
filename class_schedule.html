@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html lang = "en">
+    <head>
+        <title>BT602</title>
+        <link rel="stylesheet" href = "schedule.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body onload="realtimeClock()">
+        
+        <script>
+            if ('serviceWorker' in navigator){
+                navigator.serviceWorker.register('/service-worker.js');
+            }
+        </script>
+        <h1>BT602 Schedule</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th class="day"><a href="tuesday.html"title="Go to Tuesday Schedule">Tuesday</a></th>
+                    <th class="day"><a href="wednesday.html"title="Go to Wednesday Schedule">Wednesday</a></th>
+                    <th class="day"><a href="thursday.html"title="Go to Thursday Schedule">Thursday</a></th>
+                    <th class="day"><a href="friday.html"title="Go to Friday Schedule">Friday</a></th>              
+                    <th class="day"><a href="saturday.html"title="Go to Saturday Schedule">Saturday</a></th>
+                </tr>          
+            </thead>
+            <tbody>
+                <tr>
+                    <td class = "hrs" rowspan="2">7:00 - 8:00</td><!--Time-->
+                    
+                    <td align = "center" rowspan="12">R<br>E<br>S<br>T</td><!--Mon-->
+                    <td class="lect" rowspan="4"><a href="https://elms.sti.edu/student_assignments/list/5036315" target="_blank" title="Go to Web Systems and Technologies">Web Systems and Technologies</a></td><!--Tues-->
+                    <td class="lab" rowspan="6"><a href="https://elms.sti.edu/student_assignments/list/5036316" target="_blank" title="Go to Mobile Systems and Technologies">Mobile Systems and Technologies</a></td><!--Wed-->
+                    <td class="lect" rowspan="6"><a href="https://elms.sti.edu/student_assignments/list/5035881" target="_blank" title="Go to Management Information Systems">Management Information Systems</a></td><!--Thurs-->
+                    <td class="lect"rowspan="6"><a href="https://elms.sti.edu/student_assignments/list/5044906" target="_blank" title="Go to Great Books">Great Books</a></td><!--Fri-->
+                    <td class="lab" rowspan="6"><a href="https://elms.sti.edu/student_assignments/list/5063065" target="_blank" title="Go to Programming Languages">Programming Languages</a></td><!--Sat-->
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td class = "hrs" rowspan="2">8:00 - 9:00</td>                  
+                </tr>
+                <tr>
+                </tr>               
+                <tr>
+                    <td class = "hrs" rowspan="2">9:00 - 10:00</td>
+                    <td class="lect" rowspan="4"><a href="https://elms.sti.edu/student_assignments/list/5063065" target="_blank" title="Go to Programming Languages">Programming Languages</a></td>
+                </tr>
+                <tr>
+                </tr>             
+                <tr>
+                    <td class = "hrs" rowspan="2">10:00 - 11:00</td>
+                    <td class="lect"rowspan="3"><a href="https://elms.sti.edu/student_assignments/list/5035882" target="_blank" title="Go to IT Capstone Project 1">IT Capstone Project 1</a></td>
+                    <td class="lab"rowspan="3"><a href="https://elms.sti.edu/student_assignments/list/5063064" target="_blank" title="Go to Information Assurance & Security (Cybersecurity Fundamentals)">Information Assurance & Security (Cybersecurity Fundamentals)</a></td>
+                    <td class="lab" rowspan="6"><a href="https://elms.sti.edu/student_assignments/list/5036315" target="_blank" title="Go to Web Systems and Technologies">Web Systems and Technologies</a></td>
+                    <td rowspan="2">Vacant</td>
+                </tr>
+                <tr>
+                </tr>           
+                <tr>
+                    <td class = "hrs" rowspan="2">11:00 - 12:00</td>                    
+                    <td class="lect" rowspan="6"><a href="https://elms.sti.edu/student_assignments/list/5036316" target="_blank" title="Go to Mobile Systems and Technologies">Mobile Systems and Technologies</a></td>
+                    <td class="lect" rowspan="4"><a href="https://elms.sti.edu/student_assignments/list/5063064" target="_blank" title="Go to Information Assurance & Security (Cybersecurity Fundamentals)">Information Assurance & Security (Cybersecurity Fundamentals)</a></td>
+                </tr>
+                <tr>
+                </tr>        
+                <tr>
+                    <td class = "hrs" rowspan="2">12:00 - 1:00</td>
+                </tr>
+                <tr>
+
+                </tr>           
+            </tbody>
+        </table>   
+        <p style="color: rgb(30, 144, 255);">Light Blue : Lecture</p>
+        <p style="color:rgb(0, 4, 255);">Dark Blue : Computer Lab</p>
+        <script src="clock.js"></script>   
+        <div id="clock"></div>
+    </body>
+</html>
