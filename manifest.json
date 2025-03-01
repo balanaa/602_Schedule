@@ -1,7 +1,7 @@
 {
     "name" : "BT602 Schedule",
     "short-name" : "BT602 Schedule",
-    "start-url" : "/?home=true",
+    "start-url" : "/",
     "icons": [
     {
       "src": "favicon.png",
