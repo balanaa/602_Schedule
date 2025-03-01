@@ -1,11 +1,13 @@
 const CACHE_NAME = "schedule-pwa-v1";
 const FILES_TO_CACHE = [
-    "/", // Cache the root page
-    "/index.html",
-    "/styles.css",
-    "/script.js",
-    "/favicon.ico",
-    "/manifest.json"
+   "/602_Schedule/",
+    "/602_Schedule/index.html",
+    "/602_Schedule/schedule.css",
+    "/602_Schedule/clock.js",
+    "/602_Schedule/bg.img",
+    "/602_Schedule/favicon.png",
+    "/602_Schedule/icon-192x192.png",
+    "/602_Schedule/icon-512x512.png"
 ];
 
 // Install Service Worker and cache files
