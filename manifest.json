@@ -1,6 +1,6 @@
 {
     "name" : "Schedule",
-    "short-name" : "Schedule",
+    "short_name" : "Schedule",
     "start_url" : "/602_Schedule/",
     "icons": [
     {
