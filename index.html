@@ -72,5 +72,13 @@
         <p style="color:rgb(0, 4, 255);">Dark Blue : Computer Lab</p>
         <script src="clock.js"></script>   
         <div id="clock"></div>
+
+        <script>
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("/service-worker.js")
+                    .then(() => console.log("Service Worker Registered"))
+                    .catch((error) => console.log("Service Worker Registration Failed", error));
+            }
+        </script>
     </body>
 </html>
