@@ -2,6 +2,7 @@
     "name" : "Schedule",
     "short-name" : "Schedule",
     "start-url" : "/602_Schedule/",
+    "scope": "/602_Schedule/",
     "icons": [
     {
       "src": "icon-192x192.png",
